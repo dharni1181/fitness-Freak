@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>
+            How to make features section
+        </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/4cff04742e.js" crossorigin="anonymous"></script>
+ 
+        
+        <style>
+            body{
+                background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://wallpapercave.com/wp/wp2697121.jpg");
+                background-size:cover;
+                background-position:center;
+                color:#fff;
+
+            }
+            .services{
+                margin:90px auto;
+                text-align:center;
+            }
+
+            h1{
+                font-family:'Courier New', monospace;
+                letter-spacing:2px;
+                font-weight: bolder;
+                color:blanchedalmond;
+
+            }
+            h3{
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
+
+            }
+            p{
+                font-size:30px;
+                letter-spacing:2px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: cornsilk;
+                text-align: center;
+            }
+            h1:after{
+                content:'';
+                background:srgba(229, 211, 211, 0.993);
+                display:block;
+                width:150px;
+                margin:10px auto;
+                height:3px;
+            }
+
+            h1:hover{
+                box-shadow:5px 7px 9px -3px rgba(255,255,255,0.5);
+            }
+
+            .icon{
+                font-size:40px;
+                margin:20px auto;
+                
+                padding:20px;
+                height:80px;
+                width:80px;
+                color:rgb(247, 193, 131);
+                border:1px solid rgb(238, 234, 225);
+                border-radius:50%;
+
+            }
+
+            .col-md-3:hover{
+                box-shadow:5px 7px 9px -3px rgba(255,255,255,0.5);
+                cursor:pointer;
+            }
+
+            .paras{
+                color:#fff;
+                font-weight:4px;
+                font-size:16px;
+            }
+        #mail:hover{
+            border:3px solid black;
+        }
+
+        #password:hover{
+            border:3px solid black;
+        }
+
+        #home-button{
+            background-color:transparent;
+            border-radius:5px;
+            height:35px;
+            width:100px;
+            font-size:20px;
+            color:#fff;
+        
+        
+            
+        }
+
+        #home-button:hover{
+            transition:0.5s;
+            border:0;
+        }
+
+        a:link { text-decoration: none;
+                 background-color:transparent;
+                 color:#fff;}
+        a:visited { text-decoration: none;
+                background-color:transparent;
+                color:#fff; }
+
+
+        a:hover  { text-decoration: none;
+                   }
+
+
+        a:active { text-decoration: none;
+                   background-color:transparent;
+                   color:#fff; }
+       
+        </style>
+
+    </head>
+    <body>
+        <nav>
+            <button id="home-button">
+                <a href="home.html">HOME</a>
+            </button>
+        </nav>
+        <div class="container">
+            <div class="services">
+                <h1>Our Services</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fas fa-dumbbell"></i>
+
+                    </div><br>
+                    <h3>Free Personal Training</h3> <br><br>
+                    <p class="paras">Offers all members 1 hour of free personal training per member, per month in all of our 6 locations. Our nationally certified personal trainers work with you, one on one, as you systematically change programs every month.</p>
+
+                </div><br>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fas fa-stethoscope"></i>
+
+                    </div>
+                    <br>
+                    <h3>Free Medical Monitoring</h3><br><br>
+                    <p class="paras">Nurses work in our clubs and play a key role in monitoring your health. Every month, for free, they monitor your heart and circulatory system, measure and weigh you, and chart your percentage of body fat. </p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fas fa-diagnoses"></i>
+                    </div><br>
+                    <h3>Free Inbody Screenings</h3><br><br>
+                    <p class="paras">In less than 60 seconds, the InBody not only examines the composition of your body, but also reveals percentage of body fat, muscle distribution, and body water balance. Go beyond the scale and see what you’re made of.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fas fa-swimmer">
+
+                        </i>
+                    </div><br>
+                    <h3>Gym Saltwater Pools</h3><br><br>
+                    <p class="paras">Each Kennedy Fitness Center has a saltwater swimming pool on premise.These pools are better for your skin and hair, and also lack the harmful chemicals present in traditional pools. Members can also take aquatics classes.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

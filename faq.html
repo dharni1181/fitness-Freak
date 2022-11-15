@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap");
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+    
+font-family: "Quicksand" sans-serif;
+background:black;
+color: #fff;
+}
+
+section{
+    min-height: 100vh;
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+
+}
+.question{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+.question h3{
+    font-size: 1.8rem;
+}
+.answer {
+max-height: 0;
+overflow:hidden;
+transition: max-height 1.4s ease;
+}
+.answer p{
+    padding-top:1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+.faq.active .answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg {
+    transform:rotate(180deg);
+}
+
+svg{
+    transition: transform 0.5s ease-in;
+}
+
+#mail:hover{
+            border:3px solid black;
+        }
+
+        #password:hover{
+            border:3px solid black;
+        }
+
+        #home-button{
+            background-color:transparent;
+            border-radius:5px;
+            height:35px;
+            width:100px;
+            font-size:20px;
+            color:#fff;
+        
+        
+            
+        }
+
+        #home-button:hover{
+            transition:0.5s;
+            border:0;
+        }
+
+        a:link { text-decoration: none;
+                 background-color:transparent;
+                 color:#fff;}
+              
+       a:visited { text-decoration: none;
+                    background-color:transparent;
+                    color:#fff; }
+
+
+        a:hover  { text-decoration: none;
+                   }
+
+
+        a:active { text-decoration: none;
+                   background-color:transparent;
+                   color:#fff; }
+
+
+@keyframes fade {
+ from {
+     opacity: 0;
+     transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+    </style>
+
+
+
+</head>
+<body>
+    <nav>
+        <button id="home-button">
+            <a href="home.html">HOME</a>
+        </button>
+    </nav>
+    <section>
+<h2 class="title"> FAQs </h2>
+<p><center><h2>Having DOUBT? Dont worry, we are here to help you resolve them! </h2></center></p>
+<div class="faq">
+    <div class="question">
+        <h3>Why is Be Fit the #1 Fitness company?</h3>
+        <svg width="15" height="10" viewBox="0 0 42 25">
+            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round"/>
+        </svg>
+    </div>
+    <div class="answer">
+        <p>
+        Be Fit produces results. The team is passionate about the fitness industry is constantly seeking new ways to improve their practices. Be Fit cares for every client, regardless of what level they begin their fitness journey.
+
+        </p>
+    </div>
+</div>
+
+
+
+<div class="faq">
+    <div class="question">
+        <h3>I’ve never exercised is Be Fit for me?</h3>
+        <svg width="15" height="10" viewBox="0 0 42 25">
+            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round"/>
+        </svg>
+    </div>
+    <div class="answer">
+        <p>
+            Yes! Be Fit caters to all abilities, through one-on-one personal training, or group sessions. Be Fit has you covered.
+
+        </p>
+    </div>
+    </div>
+
+
+
+    <div class="faq">
+        <div class="question">
+            <h3>What is Be Fit Personal Training and what does it offer?
+            </h3>
+            <svg width="15" height="10" viewBox="0 0 42 25">
+                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round"/>
+            </svg>
+        </div>
+        <div class="answer">
+            <p>
+                Fitness Fire is a unique personal training service helping people build and reshape their lives.
+                Fitness Fire offers a range of training services from one to one, group training and studio classes. Also offering nutritional and coaching support to help you achieve your health and fitness goals.    
+            </p>
+        </div>
+        </div>
+
+
+
+       
+
+
+            <div class="faq">
+                <div class="question">
+                    <h3>What type of training do your classes offer?
+                    </h3>
+                    <svg width="15" height="10" viewBox="0 0 42 25">
+                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round"/>
+                    </svg>
+                </div>
+                <div class="answer">
+                    <p>
+                        At Fitness Fire  you’ll experience classes like no other before. From High Intensity Interval Training, strength resistance training, and boxing we combine elements of training to provide a first-class training experience.
+            
+                    </p>
+                </div>
+            </div>
+
+                <div class="faq">
+                    <div class="question">
+                        <h3>Will there be someone present in the sessions to help me?
+                        </h3>
+                        <svg width="15" height="10" viewBox="0 0 42 25">
+                            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round"/>
+                        </svg>
+                    </div>
+                    <div class="answer">
+                        <p>
+                            Yes, both our group, and one-on-one training sessions have experienced coaches on hand to guide you through the workout.                
+                        </p>
+                    </div>
+                    </div>
+
+                    <div class="faq">
+                        <div class="question">
+                            <h3>Do you provide nutrition support?
+                            </h3>
+                            <svg width="15" height="10" viewBox="0 0 42 25">
+                                <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round"/>
+                            </svg>
+                        </div>
+                        <div class="answer">
+                            <p>
+                                Yes, nutrition is key for results. We provide access to the Be Fit Nutrition Tracker, that will aid your nutritional habits and results. We are also committed to educating our clients following a sustainable healthy lifestyle.
+                    
+                            </p>
+                        </div>
+                        </div>
+
+
+
+
+                        <div class="faq">
+                            <div class="question">
+                                <h3>Do I have to join a 6-Week plan?
+                                </h3>
+                                <svg width="15" height="10" viewBox="0 0 42 25">
+                                    <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round"/>
+                                </svg>
+                            </div>
+                            <div class="answer">
+                                <p>
+                                    We recommend anyone starting out to try one of the 6-Week options. You’ll get a taste for most of our services and find out what works best for you.
+                        
+                                </p>
+                            </div>
+                            </div>
+    
+
+                            <div class="faq">
+                                <div class="question">
+                                    <h3>How is Fitnesss Fire different from finding a free workout online?
+                                    </h3>
+                                    <svg width="15" height="10" viewBox="0 0 42 25">
+                                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round"/>
+                                    </svg>
+                                </div>
+                                <div class="answer">
+                                    <p>
+                                        Most of the online workouts or nutrition programs are designed to be generic. We are all different and one plan is not going to get the best results for everyone. It makes sense to have different options to play with, but what if you’ve tried them all? JDarPT can design and implement a program that’s specific to you. The team will coach you through the process so you can understand exactly what works for you.
+                            
+                                    </p>
+                                </div>
+                                </div>
+
+
+
+
+
+                                <div class="faq">
+                                    <div class="question">
+                                        <h3>How many people attend the Group Training program?
+                                        </h3>
+                                        <svg width="15" height="10" viewBox="0 0 42 25">
+                                            <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linescape="round"/>
+                                        </svg>
+                                    </div>
+                                    <div class="answer">
+                                        <p>
+                                            Be Fit has two main group training plans; One for beginners/intermediate that holds up to 16 participants and the second training plan for advanced participants holds 8 places.
+                                
+                                        </p>
+                                    </div>
+                                    </div>
+</section>
+<script>
+            
+        const faqs = document.querySelectorAll(".faq");
+        faqs.forEach(faq => {
+            faq.addEventListener("click", () => {
+                faq.classList.toggle("active");
+            })
+        })
+
+
+
+
+    
+</script>
+
+
+    
+</body>
+</html>
